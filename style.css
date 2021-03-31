@@ -1,0 +1,30 @@
+div {
+    text-align: center;
+}
+body>div>img {
+    height: 250px;
+    margin-top: 20px;
+}
+body {
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    justify-content: space-around;
+}
+li {
+    display:flex;
+    gap: 7px;
+}
+li img {
+    height: 40px;
+}
+li div {
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    gap: 7px;
+}
