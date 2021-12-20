@@ -1,30 +1,45 @@
 div {
     text-align: center;
 }
+
 body>div>img {
     height: 250px;
     margin-top: 20px;
 }
+
 body {
     margin: 0;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Narbut Abetka', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
 ul {
     list-style: none;
     display: flex;
     padding: 0;
     justify-content: space-around;
 }
+
 li {
-    display:flex;
+    display: flex;
     gap: 7px;
 }
+
 li img {
     height: 40px;
 }
+
 li div {
-    display:flex;
+    display: flex;
     flex-direction: column;
-    align-items:center;
+    align-items: center;
     gap: 7px;
+}
+
+@font-face {
+    font-family: "Narbut Abetka";
+    src: url("NarbutAbetka.woff2") format("woff2");
+}
+
+li a {
+    text-decoration: none;
 }
